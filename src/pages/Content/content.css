@@ -1,0 +1,60 @@
+.content {
+  padding-top: 50px;
+}
+
+.contentImg {
+  margin-left: 150px;
+  width: 70vw;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.contentForm {
+  position: relative;
+}
+
+.contentFormGroup {
+  margin-left: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.contentIcon {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 50px;
+  color: rgb(230, 45, 45);
+  cursor: pointer;
+}
+
+.contentInput {
+  font-size: 30px;
+  border: none;
+  width: 70vw;
+  padding: 20px;
+}
+
+.contentInput:focus {
+  outline: none;
+}
+
+.contentTxt {
+  font-size: 20px;
+  height: 100vh;
+}
+
+.contentSubmit {
+  position: absolute;
+  top: 14px;
+  right: 14.5%;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
